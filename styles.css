@@ -1,0 +1,87 @@
+@charset "UTF8";
+
+/* introdução */
+body {
+    background-color: #e84118;
+}
+
+.ap-head {
+    margin-top: 2.5%;
+    margin-bottom: 4rem;
+    font-size: 280%;
+}
+
+/* Titulo */
+#intr-home {
+    display: flex;
+    font-family: 'Roboto';
+    justify-content: center;
+    margin-bottom: 5rem;
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+/* paginas */
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+
+.npage {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: 1s;
+    margin-right: 5rem;
+}
+
+.npage:hover {
+    filter: brightness(.8);
+    transition: 1s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.pg {
+    width: 26rem;
+    height: 18rem;
+}
+
+.text0 {
+    margin-left: 5px;
+}
+
+.div-text {
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.55);
+    margin-top: -5rem;
+}
+
+/* footer */
+.footer-white {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #e84118;
+    background-color: #ffffff;
+}
+
+.butz {
+    background-color: #e84118;
+    color: #f4f4f4;
+}
+
+.link {
+    color: #e84118;
+    border-color: #e84118;
+}
+
+.copy {
+    color: #c93f1dd5;
+}
+
+#space {
+    padding: 8rem 0;
+}
